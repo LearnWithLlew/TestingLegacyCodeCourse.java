@@ -95,8 +95,8 @@
 * [ ] Peel/slice SideEffects.print() to take an Action1<String>
 
 ### Missing Inputs
-**In File:** `exercises/exercise2/tests/MissingInputsTests.cpp`
-* [ ] Poke-test MissingInputs::getCategory()
+**In File:** `src/test/java/org/learnwithllew/testinglegacycodecourse/exercise2/MissingInputsTests.java`
+* [ ] Poke-test new MissingInputs().getCategory()
 * [ ] Get it to 100% coverage
 * [ ] Peel to pass in missing inputs 
 
