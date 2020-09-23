@@ -67,16 +67,17 @@
 * [ ] Poke-test print() in Inconsistent.java
     * Confirmation: Failing test because of date and time
 * [ ] Scrub Inconsistent.print() for time
-    * Hint: `Approvals.verify("text", Options(Scrubbers::createRegexScrubber(R"()", "[replacement]")));`
+    * Hint: `Approvals.verify("text", new Options(new RegExScrubber("", "[replacement]")));`
     * Hint: `\d` matches a digit
     * Hint: `[a-z]` matches lower-case letter
+    * Hint: `\d{3}` matches 3 digits 
     * Confirmation: Passing test with scrubbed date
-* [ ] Peel Inconsistent::print() to pass in time
+* [ ] Peel Inconsistent.print() to pass in time
 * [ ] Retro
 
 #### Random
-**In File:** `exercises/exercise2/tests/InconsistentTests.cpp`
-* [ ] Poke-test getId() in Inconsistent.h
+**In File:** `src/test/java/org/learnwithllew/testinglegacycodecourse/exercise2/InconsistentTest.java`
+* [ ] Poke-test getId() in Inconsistent.java
 * [ ] Make getId() testable
 * [ ] Make consistent seed via #ifdef
     * Confirmation: test work when run 2 times 

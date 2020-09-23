@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 class InconsistentTest {
 
     @Test
-    void testGetId() {
+    void testScrubbedPrint() {
 
     }
 
@@ -15,7 +15,7 @@ class InconsistentTest {
     }
 
     @Test
-    void testScrubbedPrint() {
+    void testGetId() {
 
     }
 }
