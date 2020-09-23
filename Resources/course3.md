@@ -91,7 +91,8 @@
 **In File:** `src/test/java/org/learnwithllew/testinglegacycodecourse/exercise2/SideEffectsTests.java`
 * [ ] Poke-test SideEffects.print()
 * [ ] Peel SideEffects.print() to return a string
-* [ ] Peel/slice SideEffects.print() to take a stream
+* [ ] Peel/slice SideEffects.print() to take a PrintStream
+* [ ] Peel/slice SideEffects.print() to take an Action1<String>
 
 ### Missing Inputs
 **In File:** `exercises/exercise2/tests/MissingInputsTests.cpp`

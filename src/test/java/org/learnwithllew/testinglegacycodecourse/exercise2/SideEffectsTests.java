@@ -9,7 +9,7 @@ public class SideEffectsTests {
     }
 
     @Test
-    public void testSideEffectsWithStream() {
+    public void testSideEffectsWithPrintStream() {
     }
 
 }
