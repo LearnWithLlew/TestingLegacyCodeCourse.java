@@ -1,0 +1,13 @@
+# Ignore Gradle build output directory
+target
+
+.idea
+out
+
+*.received.*
+
+# VSC
+.classpath
+.project
+.settings/
+bin/
