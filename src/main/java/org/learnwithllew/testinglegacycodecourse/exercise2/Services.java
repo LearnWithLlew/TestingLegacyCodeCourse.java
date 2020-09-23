@@ -4,6 +4,7 @@ import org.learnwithllew.testinglegacycodecourse.exercise2.thirdpartycode.ThirdP
 
 public class Services {
 
+    // public static boolean TESTING = false;
     // public static StringBuffer logger;
 
     public static int restCall(String url, String action, int key) {

@@ -45,8 +45,9 @@
     * Confirmation: You can see all 5 calls and results
 * [ ] Turn on SECURE
     * Confirmation: Your tests no longer work
-* [ ] Make a preprocessor seam to log if testing
-    * Confirmation: Tests work, without result codes
+* [ ] Make a test seam to log if testing
+    * Hint: Turn Services.TESTING to true and add fakes to your production code
+    * Confirmation: Tests work
 * [ ] Allow multiple tests
     * Hint: `logger.setLength(0);`
     * Confirmation: Tests pass when run together AND individually
