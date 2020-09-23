@@ -101,10 +101,11 @@
 * [ ] Peel to pass in missing inputs 
 
 ### Reduce to functional
-**In File:** `exercises/exercise2/tests/LoopTests.cpp`
+**In File:** `src/test/java/org/learnwithllew/testinglegacycodecourse/exercise2/LoopTests.java`
 * [ ] Separate a loop
-    * Have a loop that squares a number and saves it to a file
-    * Turn it into two loops - one does the calculation, the other saves it to the file
+* [ ] Poke-test Loop.square()
+* [ ] Turn it into two loops - one does the calculation, the other saves it to the file
+* [ ] Peel the method
 
 ### Wrapping Up
 
