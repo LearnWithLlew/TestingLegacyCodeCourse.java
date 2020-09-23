@@ -1,6 +1,6 @@
 package org.learnwithllew.testinglegacycodecourse.exercise2;
 
-class SystemConfiguration {
+public class SystemConfiguration {
 
     public static int rpm = 4000;
     public static double dt = 0.01;
@@ -13,25 +13,19 @@ class SystemConfiguration {
     public static boolean gravity = true;
     public static double y_torque = 3.2;
 
-    public static void initialiseSystem()
-    {
-        if ( gravity )
-        {
+    public static void initialiseSystem() {
+        if (gravity) {
             double dx = x_mph / (60 * 60 * rpm);
             double dy = y_mph / (60 * 60 * rpm);
-            for ( int i = 1; i <= rpm / 60; ++i)
-            {
+            for (int i = 1; i <= rpm / 60; ++i) {
                 x += dt * dx;
                 y += dt * dy;
                 z += dt * z_mph / (60 * 60 * rpm);
             }
-        }
-        else
-        {
+        } else {
             double dx = x_mph / (60 * 60 * rpm);
             double dy = y_mph / (60 * 60 * rpm);
-            for ( int i = 1; i <= rpm / 60; i++)
-            {
+            for (int i = 1; i <= rpm / 60; i++) {
                 x += dt * dx;
                 y += dt * dy;
             }
