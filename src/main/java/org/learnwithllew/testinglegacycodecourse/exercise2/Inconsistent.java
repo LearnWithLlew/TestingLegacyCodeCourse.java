@@ -5,6 +5,8 @@ import java.util.Random;
 
 public class Inconsistent {
 
+    // public static boolean TESTING = false;
+
     public static String print(String name) {
         LocalDateTime localDateTime = LocalDateTime.now();
         return String.format("started at %s by %s", localDateTime, name);

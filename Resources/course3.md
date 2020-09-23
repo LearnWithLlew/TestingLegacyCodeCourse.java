@@ -79,10 +79,10 @@
 **In File:** `src/test/java/org/learnwithllew/testinglegacycodecourse/exercise2/InconsistentTest.java`
 * [ ] Poke-test getId() in Inconsistent.java
 * [ ] Make getId() testable
-* [ ] Make consistent seed via #ifdef
+* [ ] Make consistent with a test seam
     * Confirmation: test work when run 2 times 
 * [ ] Extract testable function that takes a seed
-    * Confirmation:working test without #ifdef
+    * Confirmation: working test without the test seam
 * [ ] Extract Testable function that takes a number
     * Confirmation: you can reason out what the result will be before running it.
 * [ ] Retro
