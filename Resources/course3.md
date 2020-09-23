@@ -102,10 +102,10 @@
 
 ### Reduce to functional
 **In File:** `src/test/java/org/learnwithllew/testinglegacycodecourse/exercise2/LoopTests.java`
-* [ ] Separate a loop
 * [ ] Poke-test Loop.square()
-* [ ] Turn it into two loops - one does the calculation, the other saves it to the file
-* [ ] Peel the method
+* [ ] Separate a loop
+    * [ ] Turn it into two loops - one does the calculation, the other saves it to the file
+    * [ ] Peel the method
 
 ### Wrapping Up
 
