@@ -62,11 +62,12 @@
 * [ ] Retro
 
 #### Date and Time
+**In File:** `src/test/java/org/learnwithllew/testinglegacycodecourse/exercise2/InconsistentTest.java`
 
-* [ ] Poke-test print() in Inconsistent.h
+* [ ] Poke-test print() in Inconsistent.java
     * Confirmation: Failing test because of date and time
-* [ ] Scrub Inconsistent::print() for time
-    * Hint: `Approvals::verify("text", Options(Scrubbers::createRegexScrubber(R"()", "[replacement]")));`
+* [ ] Scrub Inconsistent.print() for time
+    * Hint: `Approvals.verify("text", Options(Scrubbers::createRegexScrubber(R"()", "[replacement]")));`
     * Hint: `\d` matches a digit
     * Hint: `[a-z]` matches lower-case letter
     * Confirmation: Passing test with scrubbed date
